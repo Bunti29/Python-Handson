@@ -1,0 +1,74 @@
+BUNTI@Bunti MINGW64 /d/Projects
+$ git clone https://github.com/Bunti29/Python-Handson.git
+Cloning into 'Python-Handson'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+BUNTI@Bunti MINGW64 /d/Projects
+$ ls
+Python-Handson/  WebDev-Practice/
+
+BUNTI@Bunti MINGW64 /d/Projects
+$ cd Python-Handson/
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$ ls
+README.md
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$ git log
+commit ef375a48d10c56f1ff360af004757f539a70bb06 (HEAD -> main, origin/main, origin/HEAD)
+Author: Abhishek sharma <53207747+Bunti29@users.noreply.github.com>
+Date:   Sun Jul 17 17:22:13 2022 +0530
+
+    Initial commit
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$ git add .
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$ git commit -m"Readme Changed"
+[main 3a6ee5f] Readme Changed
+ 1 file changed, 2 insertions(+)
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 328 bytes | 328.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Bunti29/Python-Handson.git
+   ef375a4..3a6ee5f  main -> main
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$ ^C
+
+BUNTI@Bunti MINGW64 /d/Projects/Python-Handson (main)
+$
